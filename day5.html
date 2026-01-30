@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+</head>
+
+<body>
+    <legend>personal details</legend>
+    <form action="">
+        <fieldset>
+            <table>
+                <tr>
+                    <td><label for="first name" id="first name">first name</label></td>
+                    <td><input type="text" name="first name" id="first name" placeholder="ex:santhosh"></td>
+                </tr>
+                <tr>
+                    <td><label for="surname" id="surname">surname</label></td>
+                    <td><input type="text" name="surname" id="surname" placeholder="ex:reddy"></td>
+                </tr>
+                <tr>
+                    <td><label for="mobile number" id="mobile number">mobile number</label></td>
+                    <td><input type="text" name="mobile number" id="mobile number" placeholder="ex:9876543210"></td>
+                </tr>
+                <tr>
+                    <td><label for="email" id="email">email</label></td>
+                    <td><input type="text" name="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="password" id="password">password</label></td>
+                    <td><input type="password" name="password" id="password"></td>
+                </tr>
+                <tr>
+                    <td><label for="conform password" id="conform password">conform password</label></td>
+                    <td><input type="password" name="conform password" id="conform password"></td>
+                </tr>
+                <tr>
+                    <td><label for="DOB" id="DOB">DOB</label></td>
+                    <td><input type="date" name="DOB" id="DOB"></td>
+                </tr>
+                <tr>
+                    <td><label for="age" id="age">age</label></td>
+                    <td><input type="text" name="age" id="age"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender" id="gender">gender</label></td>
+                    <td><input type="radio" name="gender" id="male"><label for="male">male</label>
+                        <input type="radio" name="gender" id="female"><label for="female">female</label>
+                        <input type="radio" name="gender" id="other"><label for="other">other</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="select country" id="select country">select country</label></td>
+                    <td><select name="country" id="select country">
+                            <option value="india">india</option>
+                            <option value="usa">usa</option>
+                            <option value="uk">uk</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><label for="upload picture" id="upload picture">upload picture</label></td>
+                    <td></td>
+                </tr>
+                <tr>
+
+                    <td><input type="button" value="reset"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    <legend>course details</legend>
+    <form action="">
+        <fieldset>
+            <table>
+                <tr>
+                    <td><label for="select course" id="select course">select course</label></td>
+                    <td><select name="course" id="select course">
+                            <option value="btech">btech</option>
+                            <option value="bca">bca</option>
+                            <option value="bcom">bcom</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><label for="delivery mode" id="delivery mode">delivery mode</label></td>
+                    <td><input type="radio" name="delivery mode" id="online"><label for="online">online</label>
+                        <input type="radio" name="delivery mode" id="offline"><label for="offline">offline</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="institute name" id="institute name">institute name</label></td>
+                    <td><input type="text" name="institute name" id="institute name" value="TAP ACEDEMY" disabled>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="choose your present coding knowledge level :"
+                            id="choose your present coding knowledge level:">choose your present coding
+                            knowledge level :</label></td><br>
+                    <td><input type="range" name="choose your present coding knowledge level"
+                            id="choose your present coding knowledge level" min="0" max="100"></td>
+                </tr>
+                <tr>
+                    <td><label for="comments" id="comments">comments</label></td>
+                    <td><input type="text" name="comments" id="comments" disabled>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+
+
+</body>
+
+</html>
